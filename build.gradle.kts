@@ -23,6 +23,7 @@ dependencies {
     implementation("net.dv8tion:JDA:4.1.1_125") {
         exclude(group = "org.restcomm.media.core.codec.opus", module = "opus-java")
     }
+    implementation("org.apache.commons:commons-text:1.9")
     implementation("com.bernardomg.tabletop:dice:2.0.1")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
